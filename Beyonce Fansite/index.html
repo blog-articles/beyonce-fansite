@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyonce</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+<body>
+  <div class="nav">
+    <a onclick="openNav()" class="material-symbols-outlined" id="mic-menu" style="cursor: pointer; display: inline">mic_external_on</a>
+
+  </div>
+
+  <div id="container">
+    <span id="text1"></span>
+    <span id="text2"></span>
+</div>
+<section class="back-img"></section>
+<svg id="filters">
+    <defs>
+        <filter id="threshold">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140" />
+        </filter>
+    </defs>
+</svg>
+
+<div id="myNav" class="menu">
+  <img src="menucard.png" alt=""id="img" style="animation-delay: 2s;">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+      <div class="menu-links">
+        <a href="https://en.wikipedia.org/wiki/Beyonc%C3%A9#1981%E2%80%931996:_Early_life_and_career_beginnings" target="_blank" class='lineUp' style="animation-delay: 0.1s;">Early Performances</a>
+        <a href="https://en.wikipedia.org/wiki/Beyonc%C3%A9#1997%E2%80%932002:_Destiny's_Child" target="_blank" class='lineUp' style="animation-delay: 0.2s;">Destiny's Child</a>
+        <a href="https://en.wikipedia.org/wiki/Beyonc%C3%A9#2011%E2%80%932013:_4_and_Super_Bowl_XLVII_halftime_show" target="_blank" class='lineUp' style="animation-delay: 0.3s;">Superbowl and 4</a>
+        <a href="https://en.wikipedia.org/wiki/Beyonc%C3%A9#2006%E2%80%932007:_B'Day_and_Dreamgirls" target="_blank" class='lineUp' style="animation-delay: 0.4s;">Dreamgirls</a>
+        <a href="https://en.wikipedia.org/wiki/Beyonc%C3%A9#2008%E2%80%932010:_I_Am..._Sasha_Fierce" target="_blank" class='lineUp' style="animation-delay: 0.5s;">I AM... SASHA FIERCE</a>
+        <a href="https://en.wikipedia.org/wiki/Beyonc%C3%A9#2013%E2%80%932015:_Beyonc%C3%A9" target="_blank" class='lineUp' style="animation-delay: 0.6s;">Beyoncé</a>
+        <a href="https://en.wikipedia.org/wiki/Beyonc%C3%A9#2016%E2%80%932018:_Lemonade_and_Everything_Is_Love" target="_blank" class='lineUp' style="animation-delay: 0.7s;">Lemonade</a>
+        <a href="https://en.wikipedia.org/wiki/Beyonc%C3%A9#2019%E2%80%932021:_Homecoming,_The_Lion_King_and_Black_Is_King" target="_blank" class='lineUp' style="animation-delay: 0.8s;">Homecoming & Coachella</a>
+        <a href="https://en.wikipedia.org/wiki/Beyonc%C3%A9#2019%E2%80%932021:_Homecoming,_The_Lion_King_and_Black_Is_King" target="_blank" class='lineUp' style="animation-delay: 0.9s;">Lion King </a>
+        <a href="https://en.wikipedia.org/wiki/Beyonc%C3%A9#2019%E2%80%932021:_Homecoming,_The_Lion_King_and_Black_Is_King" target="_blank" class='lineUp' style="animation-delay: 1s;"> Black Is King</a> 
+      </div>
+</div>
+
+<!-- destinys child  -->
+<div class="wrapper-div">
+  <div class="page-content">
+    <div class="slides">
+      <div class="slide one">
+        <div class="reveal">
+          <h1>DESTINY'S CHILD</h1>
+        </div> 
+      </div>
+      <div class="slide two"></div>
+      <div class="slide three"></div>
+    </div>
+  </div>
+</div>
+
+<div class="dangerouslyinlove">
+  <div class="reveal">
+    <h1 style="text-align: center; color:aliceblue;">Dangerously In Love 2003</h1>
+  </div> 
+</div>
+
+<div class="crazyinlove">
+  <div class="reveal">
+    <h1  style="text-align: center; color:black;">Crazy In Love 2003 ft. Jay-Z</h1>
+  </div>
+</div>
+
+<div class="dreamgirls">
+  <div class="reveal">
+    <h1 style="color:white; padding-top: 10vh">Dreamgirls</h1>
+  </div>
+</div>
+
+<div class="iamsashafierce">
+  <div class="reveal">
+    <h1 style="color:white; padding-top: 10vh">I AM... SASHA FIERCE 2009</h1>
+  </div>
+</div>
+
+<div class="four">
+  <div class="reveal">
+    <h1 style="color:white; padding-top: 10vh">4- Fourth Solo Studio Album 2011</h1>
+  </div>
+</div>
+
+<div class="beyonce">
+  <div class="reveal">
+    <h1 style="color:white; padding-top: 10vh">BEYONCE 2013 Visual Album</h1>
+  </div>
+</div>
+
+<div class="lemonade">
+  <div class="reveal">
+    <h1 style="color:white; padding-top: 10vh">Lemonade 2016</h1>
+  </div>
+</div>
+
+<footer>
+  <div>
+  <p style="position: relative; top: 25vh; text-align:center; font-family: Staatliches;">&copy; Copyright Reserved</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
