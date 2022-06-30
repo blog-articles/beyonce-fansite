@@ -219,94 +219,6 @@ color: white;
   left: 0;
   z-index: -5;
 }
-/* hori scroll  */
-.wrapper-div ::-webkit-scrollbar{
-  display: none;
-}
-.slide {
-  width: 100vw;
-  height: 100vh;
-  /* z-index: 1000; */
-  top: 100vh;
-  right: 0;
-  left: 0;
-}
-
-.page-content {
-  width: 100vh;
-  height: 100vw;
-  /* z-index: 100000; */
-  top: 100vh;
-  transform: rotate(-90deg) translateX(-100vh);
-  transform-origin: top left;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  position: absolute;
-  top: 100vh;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-/* wrapper containing our slides */
-.slides {
-  display: flex;
-  flex-direction: row;
-  transform: rotate(90deg) translateY(-100vh);
-  transform-origin: top left;
-  overflow-y: hidden;
-  width: 300vw;
-  /* z-index: 100000; */
-  top: 100vh;
-  right: 0;
-  left: 0;
-}
-
-.slide {
-  /* font-size: 30px;
-  color: #000;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-  width: 100vw;
-}
-
-.one {
-  background-image: url('/media/destinys child reunion coachella.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-}
-@media screen and (max-width: 600px){
-  .one{
-    background-image: url('/media/destinys child.jpg');
-  }
-  .one .reveal h1{
-    color: white;
-  }
-  .one .reveal p{
-    color: white;
-  }
-}
-@media screen and (max-width: 350px){
-  .one {
-    background-image: url('/media/destinys child smallr screen say yes live.jpg');
-  }
-  .one .reveal h1{
-    color: black;
-  }
-  .one .reveal p{
-    color: black;
-  }
-}
-.two {
-  background-image: url('/media/Destinys-Child-Michelle-Williams-Beyonce-Kelly-Rowland-2005 recording.webp');
-}
-
-.three {
-  background-image: url('/media/destinys child indepdent women.jpg');
-}
-
 .reveal{
   position: relative;
   transform: translateY(150px);
@@ -333,18 +245,6 @@ color: white;
   transform: translateY(0);
   opacity: 1;
 }
-.four{
-  background-image: url('media/dangerously in love.jpg');
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: absolute;
-  width: 100%;
-  top: 200vh;
-  right: 0;
-  left: 0;
-}
 .dangerouslyinlove{
   background-image: url('media/dangerously in love.jpg');
   height: 120vh;
@@ -355,7 +255,7 @@ color: white;
   width: 100%;
   right: 0;
   left: 0;
-  top: 200vh;
+  top: 100vh;
 }
 
 @media  screen and (max-width: 650px){
@@ -371,7 +271,7 @@ color: white;
   background-attachment: fixed;
   position: absolute;
   width: 100%;
-  top: 300vh;
+  top: 200vh;
   right: 0;
   left: 0;
 }
@@ -383,7 +283,7 @@ color: white;
   background-attachment: fixed;
   position: absolute;
   width: 100%;
-  top: 400vh;
+  top: 300vh;
   right: 0;
   left: 0;
 }
@@ -395,7 +295,7 @@ color: white;
   background-attachment: fixed;
   position: absolute;
   width: 100%;
-  top: 500vh;
+  top: 400vh;
   right: 0;
   left: 0;
 }
@@ -407,7 +307,7 @@ color: white;
   background-attachment: fixed;
   position: absolute;
   width: 100%;
-  top: 600vh;
+  top: 500vh;
   right: 0;
   left: 0;
 }
@@ -419,7 +319,7 @@ color: white;
   background-attachment: fixed;
   position: absolute;
   width: 100%;
-  top: 700vh;
+  top: 600vh;
   right: 0;
   left: 0;
 }
@@ -431,7 +331,7 @@ color: white;
   background-attachment: fixed;
   position: absolute;
   width: 100%;
-  top: 800vh;
+  top: 700vh;
   right: 0;
   left: 0;
 }
