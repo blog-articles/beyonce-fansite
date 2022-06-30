@@ -352,7 +352,8 @@ footer{
   background-attachment: fixed;
   position: absolute;
   width: 100%;
-  top: 900vh;
+  top: 800vh;
+    bottom: 0;
 }
 footer div{
   background-color: #0707078e;
