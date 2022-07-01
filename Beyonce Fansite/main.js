@@ -166,3 +166,9 @@ window.addEventListener("load", function () {
   init();
 });
 //
+
+
+function alertM() {
+  alert('This is a fansite primarily built to display skills')
+}
+alertM();
